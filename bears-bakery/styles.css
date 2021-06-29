@@ -1,0 +1,23 @@
+header {
+    position: absolute;
+    width: 1030px;
+    height: 172px;
+    left: 376px;
+    top: 58px;
+    font-family: Amatic 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-stretch: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 140px;
+    text-align: center;
+    color: black;
+}
+
+.Bear{
+    position: absolute;
+    width: 529px;
+    height: 261px;
+    left: 0px;
+    top: 0px;
+    background-color: #f2c57c;
+}
