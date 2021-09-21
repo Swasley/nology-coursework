@@ -1,0 +1,202 @@
+@import "./base.scss";
+
+.hexagon01 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 81px;
+    top: 155px;
+}
+
+.hexagon02 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 280px;
+    top: 40px;
+}
+
+.hexagon03 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 280px;
+    top: 270px;
+}
+
+.hexagon04 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 81px;
+    top: 385px;
+}
+
+.head {
+    position: absolute;
+    width: 560px;
+    height: 101px;
+    left: 540px;
+    top: 200px;
+    font-family: $font-display; 
+    font-style: normal;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 65px;
+    letter-spacing: 0.14em;
+    color: black;
+}
+
+.sub {
+    position: absolute;
+    width: 387px;
+    height: 50px;
+    left: 620px;
+    top: 300px;
+    font-family: $font-display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 48px;
+    letter-spacing: 0.08em;
+    color: black;
+}
+
+.about {
+    position: absolute;
+    width: 349px;
+    height: 109px;
+    left: 245px;
+    top: 80px;
+    font-family: $font-display;
+    font-size: 45px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: 0.53em;
+    text-decoration: none;
+    color: #d4af37;
+    a:visited {color: #d4af37;}
+    a:hover {color: black;}
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.skills {
+    position: absolute;
+    width: 220px;
+    height: 50px;
+    left: 100px;
+    top: 190px;
+    font-family: $font-display;
+    font-style: normal;
+    font-size: 45px;
+    line-height: 72px;
+    letter-spacing: 0.53em;
+    color: #d4af37; 
+    a:visited {color: #d4af37;}
+    a:hover {color: black;}
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.projects {
+    position: absolute;
+    width: 382px;
+    height: 56px;
+    left: 222px;
+    top: 340px;
+    font-family: $font-display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.53em;
+    color: #fcc100;
+    text-shadow: 0px 4px 4px rgba (0, 0, 0, 0.30);
+}
+
+.contact {
+    position: absolute;
+    width: 250px;
+    height: 163px;
+    left: 85px;
+    top: 450px;
+    font-family: $font-display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: 0.53em;
+    color:#d4af37;
+}
+
+.line {
+    position: absolute;
+    width: 250px;
+    height: 0px;
+    left: 590px;
+    top: 315px;
+    border: 1px solid #000000;
+}
+
+.rectangle01 {
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1100px;
+    height:250px;
+    left: 33px;
+    top: 872px;
+    background-color: white;
+    border: 3px solid black;
+    box-sizing: border-box;
+    font-family: $font-body;
+    font-size: 20px;
+
+    .content01 {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    .hexagon05 {
+        width: 250px;
+        margin: 10px;
+        margin-top: 5px;
+
+    }
+}
+
+.rectangle02 {
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1100px;
+    height: 250px;
+    left: 33px;
+    top: 1150px;
+    background-color: white;
+    border: 3px solid black;
+    box-sizing: border-box;
+
+    .hexagon06 {
+        width: 150px;
+        margin: 10px;
+        margin-top: 20px;
+    }
+
+    .giticon {
+        width: 60px;
+        height: 107px;
+        margin-top: 60px;
+        margin-right: 80px;
+    }
+}
+
+
+

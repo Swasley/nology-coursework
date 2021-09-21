@@ -1,23 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Reenie+Beanie&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand:wght@300&family=Reenie+Beanie&family=Roboto&display=swap");
 .hexagon01 {
-  position: absolute;
+  position: relative;
   width: 250px;
   height: 250px;
-  left: 81px;
+  left: 400px;
   top: 155px;
 }
 
 .hexagon02 {
-  position: absolute;
+  position: relative;
   width: 250px;
   height: 250px;
-  left: 280px;
+  left: 400px;
   top: 40px;
 }
 
 .hexagon03 {
-  position: absolute;
+  position: relative;
   width: 250px;
   height: 250px;
   left: 280px;
@@ -25,7 +25,7 @@
 }
 
 .hexagon04 {
-  position: absolute;
+  position: relative;
   width: 250px;
   height: 250px;
   left: 81px;
